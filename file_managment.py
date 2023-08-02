@@ -12,7 +12,7 @@ class file_managment():
         json_data = self.read_json()
         os.environ['GENERAL_PATH'] = json_data['env_vairables']['system']['GENERAL_PATH']
         os.environ['INPUT_PATH_1'] = json_data['env_vairables']['system']['INPUT_PATH_1']
-        print("My constructor")
+        print("Parent constructor")
 
     def read_json(self):
         # returns JSON object as
