@@ -12,6 +12,8 @@ class file_managment():
         json_data = self.read_json()
         os.environ['GENERAL_PATH'] = json_data['env_vairables']['system']['GENERAL_PATH']
         os.environ['INPUT_PATH_1'] = json_data['env_vairables']['system']['INPUT_PATH_1']
+        os.environ['INPUT_PATH_2'] = json_data['env_vairables']['system']['INPUT_PATH_2']
+        os.environ['INPUT_PATH_3'] = json_data['env_vairables']['system']['INPUT_PATH_3']
         print("Parent constructor")
 
     def read_json(self):
@@ -34,6 +36,11 @@ class file_managment():
         data = f.read()
 
         return data
+    
+    def readFiles(self,count,path_test_train):
+        myDirectory = os.environ["GENERAL_PATH"] + "/input-files/OCR-inputs/input-" + str(count) + '/'
+        dirFile = os.listdir(myDirectory)
+        return dirFile,myDirectory
 
 
     def delete_file(self,path,file_name):
@@ -42,6 +49,14 @@ class file_managment():
         print("Delete it")
 
         return "delete it"
+    
+    def filesExist(self,file,count,path_test_train):
+        path_1 = os.environ["GENERAL_PATH"] + "/input-files/OCR-inputs/input-" + str(count) + '/'
+        path = os.path.join(path_1, file)
+        isExist = os.path.exists(path)
+            #print("Already exist")
+
+        return isExist
 
     def exist_file(self, path,file_name):
         status = False

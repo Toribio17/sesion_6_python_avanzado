@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>::..  Dirección de Apoyo a Centros Universitarios y Unidades Académicas Profesionales ..::</title>
+<style type="text/css">
+<!--
+.titulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+}
+.subtitulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #892839;
+}
+.cuerpotexto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.autor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+.menuder {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+}
+.plato {
+	background-image: url(img/plato.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+a:link {
+	color: #999999;
+	text-decoration: none;
+}
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+a:hover {
+	color: #663333;
+	text-decoration: none;
+}
+a:active {
+	color: #663333;
+	text-decoration: none;
+}
+body {
+	background-color: #FFFFFF;
+}
+.Estilo21 {
+	font-family: "Trajan Pro", "Trajan Pro Bold", "Times New Roman";
+	font-size: 18px;
+	color: #6a874d;
+	font-weight: bold;
+}
+.Estilo23 {color: #107A04}
+.Estilo25 {font-size: 16px}
+.Estilo26 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+-->
+</style>
+<script src="./auap_files/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body>
+<table width="968" border="0" align="center" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tbody><tr>
+    <td width="240" height="158" valign="top"><div align="center"><img src="./auap_files/Escudo.png" width="180" height="158" border="0" usemap="#Map"></div></td>
+    <td width="724" valign="top"><p class="Estilo23">&nbsp;</p>
+    <p class="Estilo23">UNIVERSIDAD AUTÓNOMA DEL ESTADO DE MÉXICO<br>
+	
+	Cont@ctanos...
+	  informes@uaemex.mx
+	 
+	 o siguenos en twitter a través de @info_uamex_mx
+    ___________________________________________________<br>
+      UAEM<br>
+      <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','490','height','75','src','Menuprincipal','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','Menuprincipal' ); //end AC code
+</script><embed width="490" height="75" src="Menuprincipal.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash"> <noscript>&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="570" height="75"&gt;
+        &lt;param name="movie" value="Menuprincipal.swf" /&gt;
+        &lt;param name="quality" value="high" /&gt;
+        &lt;embed src="Menuprincipal.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="570" height="75"&gt;&lt;/embed&gt;
+      &lt;/object&gt;</noscript>
+    </p>    </td>
+    <td width="4" rowspan="2" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  </tr>
+  
+  
+  <tr>
+    <td height="641" colspan="2" valign="top"><table width="97%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tbody><tr>
+        <td width="200" height="641" valign="top"><p>
+          <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','200','height','630','src','Menulateral','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','Menulateral' ); //end AC code
+</script><embed width="200" height="630" src="Menulateral.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash"> <noscript>&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="200" height="690"&gt;
+            &lt;param name="movie" value="Menulateral.swf" /&gt;
+            &lt;param name="quality" value="high" /&gt;
+            &lt;embed src="Menulateral.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="200" height="690"&gt;&lt;/embed&gt;
+          &lt;/object&gt;</noscript>
+        </p>          </td>
+        <td width="732" valign="top"><p>&nbsp;</p>
+          <p align="center"><span class="Estilo21"><span class="Estilo25">UNIDAD ACADÉMICA PROFESIONAL</span> </span></p>
+          <p align="center"><img src="./auap_files/menucentros.jpg" alt="" width="445" height="26" border="0" usemap="#Map2">
+            <map name="Map2" id="Map2">
+              <area shape="rect" coords="12,6,109,20" href="http://www.dep.uaemex.mx/mapas/" target="_blank">
+              <area shape="rect" coords="186,6,293,21" href="http://www.uaemex.mx/cusyuaps/img.html"><area shape="rect" coords="371,7,425,20" href="http://www.uaemex.mx/cusyuaps/Croquis.html" target="_blank">
+            </map>
+          </p>
+          <table width="453" height="369" border="0" align="center">
+          <tbody><tr>
+            <td width="272" height="289"><img src="./auap_files/logo.jpg" width="470" height="353"></td>
+          </tr>
+          <tr>
+            <td><div align="justify">
+              <blockquote>
+                <blockquote>
+                  <blockquote>
+                    <p class="Estilo26">M. en D. R. Luis Ramón López Gutiérrez<br>
+                    Coordinador de la Unidad Académica Profesional</p>
+                      Tel. 01 (55) 51 12 63 72<br>
+                      Tel. 01 (55) 51 12 64 26</p>
+                    </blockquote>
+                </blockquote>
+              </blockquote>
+            </div></td>
+          </tr>
+        </tbody></table>
+          <p>&nbsp;</p>
+          <blockquote>
+            <div align="center">              </div>
+            </blockquote>
+          <blockquote>&nbsp;</blockquote></td>
+        </tr>
+		
+Consultas y aclaraciones: Departamento de telefon&iacute;a - DTI</font><br> <ahref="mailto:telefonia@uaem.mx">telefonia@uaem.mx</a><br>		
+
+tml>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="STYLESHEET" type="text/css" href="index.css">
+</head>
+
+<body class=fondog><script type="text/javascript" src="http://banners.host.sk/hostsk.js"></script>
+<div align=center>
+<table width="850" border="0" cellpadding="10" cellspacing="2">
+<tr>
+<td colspan="4" width="270" height="96">
+<div align="left" style="width:390px; height:96px; position:absolute; margin-left: 230px; top: 10px;">
+<div class=dtexto style="position:absolute">COORDINADOR
+<br>M. en D. R. Luis Ram&oacute;n L&oacute;pez Guti&eacute;rrez
+<br>Correo electronico:
+<br>lrlopezg@uaemex.mx
+<br>Extensi&oacute;n: 7906</div>
+<img src=imagenes/directorio/coordinador.gif width="113" height="96" align="right">
+</div>
+</td>
+</tr>
+<tr>
+<td width="270" height="96"><div class=dtexto>SUBDIRECTOR ACAD&Eacute;MICO
+<br>D. I. I. Javier Garcia Guti&eacute;rrez
+<br>Correo electronico:
+<br>{jgarciag,javierg}@uaemex.mx
+<br>Extensi&oacute;n: 7908</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/subdirector.gif width="113" height="96"></td>
+<td width="270" height="96"><div class=dtexto>SUBDIRECTORA ADMINISTRATIVA
+<br>Lic. en C.P. y A. P. Ma. Teresa Cruz Pati&ntilde;o
+<br>Correo electronico:
+<br>mtcruzp@uaemex.mx
+<br>Extensi&oacute;n: 7929</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/subdirectora.gif width="113" height="96"></td>
+</tr>
+<tr>
+<td width="270" height="96"><div class=dtexto>JEFE DE LA UNIDAD DE PLANEACI&Oacute;N
+<br>
+Juan Manuel Sanchez Soto
+<br>
+Extensi&oacute;n: 7970</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/jefedelaunidad.gif width="113" height="96"></td>
+<td width="270" height="96"><div class=dtexto>JEFE DE LA UNIDAD DE INVESTIGACI&Oacute;N Y ESTUDIOS AVANZADOS
+<br>Dra. en C. S. Mar&iacute;a Luisa Quintero Soto
+<br>Correo electronico:
+<br>mlquinteros@uaemex.mx
+<br>Extensi&oacute;n: 7911</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/jefeinvestigacion.gif width="113" height="96"></td>
+</tr>
+<tr>
+<td width="270" height="96"><div class=dtexto>COORDINADOR DE INGENIER&Iacute;A EN TRANSPORTE
+<br>Ing. Oscar Fed&eacute;rico Hidalgo Rivera
+<br>Correo electronico:
+<br>ofhidalgor@uaemex.mx
+<br>Extensi&oacute;n: 7922</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/cordinadortransporte.gif width="113" height="96"></td>
+<td width="270" height="96"><div class=dtexto>COORDINADOR DE LA LICENCIATURA EN ECUCACI&Oacute;N PARA LA SALUD
+<br>MASS Georgina Contreras Landgrave
+<br>Correo electronico:
+<br>gcontrerasl-AT-uaemex-DOT-mx
+<br>Extensi&oacute;n: 7924</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/cordinadorsalud.gif width="113" height="96"></td>
+</tr>
+<tr>
+<td width="270" height="96"><div class=dtexto>COORDINADOR DE INGENIERIA EN SISTEMAS INTELIGENTES
+<br>Dra. en C. C. Dora Mar&iacute;a Calder&oacute;n Nepamuceno
+<br>Correo electronico:
+<br>dmcalderonn{@}uaemex{.}mx
+<br>Extensi&oacute;n: 7911</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/cordinadorsistemas.gif width="113" height="96"></td>
+<td width="170" height="96"><div class=dtexto>COORDINADOR DE LA LICENCIATURA EN COMERCIO INTERNAcIONAL
+<br>D. en E. Dario Guadalupe Ibarra Zavala
+<br>Correo electronico:
+<br>dibarraz{AT}uaemex{DOT}mx
+<br>Extensi&oacute;n: 7923</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/ width="113" height="96"></td>
+</tr>
+<tr>
+<td width="270" height="96"><div class=dtexto>JEFE DE DIFUSI&Oacute;N CULTRAL EXTENSI&Oacute;N Y VINCULACI&Oacute;N
+<br>Lic. en T. S. Maria de Lourdes Morales Flores
+<br>Correo electronico:
+<br>mlmoralesf{ARROBA}uaemex{PUNTO}mx
+<br>Extensi&oacute;n: 7909</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/jefecultural.gif width="113" height="96"></td>
+<td width="270" height="96"><div class=dtexto>RESPONSABLE DE CONTROL ESCOLAR
+<br>Lic. en A. Karina Contreras Santos
+<br>Correo electronico:
+<br>kcontrerass@uaemex.mx
+<br>Extensi&oacute;n: 7960</div></td>
+<td width="113" height="96"><img src=imagenes/directorio/ width="113" height="96
+
+Emergencias comunicarse 01-800 4554 333.
+
+       <tbody><tr>
+            <td>
+            </td>
+            <td align="center">
+                <map name="correo">
+                <area shape="RECT" coords="0, 0, 49, 88" href="mailto:jareyc@yahoo.com.mx">
+                <area shape="RECT" coords="49, 0, 98, 99" href="mailto:jareyc@fi-b.unam.mx">
+                </map>
+            <a href="http://profesores.fi-b.unam.mx/jareyc/correo.map%22"> <img src="email.gif" alt="Imagen de correo" style="height: 88px; width: 99px" ismap="" usemap="#correo"> </a>
+            </td>
+            <td>
+            </td>
+        </tr>
+
+		
+		
+<p></p><h3><center> E-mail: </center> </h3>
+<center><a href="mailto:cintia@fi-b.unam.mx"><img src="./Cintia_files/arro0009.gif" width="70" height="70" border="0"></a><p></p></center>
+
+ <div align="center"><h2>
+	INSTITUTO DE INVESTIGACIONES SOCIALES	</h2></div><br>
+<table border="0" width="100%">
+    <tbody><tr>
+        <th colspan="3"><h2>Datos de contacto</h2><br></th><th>
+    </th></tr>
+	<tr></tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><h3>INVESTIGADOR TIT C T.C.</h3><h3></h3></td>
+    </tr>
+    
+    <tr>
+        <td>&nbsp;</td>
+        <td><strong>Correo: </strong>{jag,javierguti}@unam.mx</td>
+    </tr>
+
+    <tr>
+	<td width="">&nbsp;</td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0" style="margin-left:-5px">
+			<tbody><tr>
+							<td width="225"><strong>Teléfono: </strong>5556227400 EXT 265</td>
+								<td>&nbsp;</td>
+							</tr>
+		</tbody></table>
+	</td>
+        
+    </tr>
+
+

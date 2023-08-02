@@ -1,0 +1,229 @@
+<!DOCTYPE html><html><head><script>window.__ezWillLoadCnx=1;</script>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=function(){var e=0,i=0,t=[],n=!1,o=[],s=[],r=!0,a=function(e,i,n,o,s,r,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,c=this;this.name=e,this.funcName=i,this.parameters=null===n?null:p(n)?n:[n],this.isBlock=o,this.blockedBy=s,this.deleteWhenComplete=r,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),c.isInitialized=!0,c.isComplete=!0,f("... func.apply: "+e);var i=c.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[c.funcName]),null!=n&&n.apply(null,this.parameters),!0===c.deleteWhenComplete&&delete t[e],!0===c.isBlock&&(f("----- F'D: "+c.name),u())}},l=function(e,i,t,n,o,s,r){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=s,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=r,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===s&&(t.defer=!0),t.onerror=function(){f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&u()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&u())},i.getElementsByTagName("head")[0].appendChild(t)}},c=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function d(e){!0!==h(e)&&0!=r&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(p(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function u(){++e>200||(f("let's go"),m(o),m(s))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function p(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),u()}),5e3)}),!1),{addFile:function(e,i,n,r,a,c,h,f,u){var m=new l(e,i,n,r,a,c,h,u);!0===f?o[e]=m:s[e]=m,t[e]=m,d(m)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),s[e]=n,t[e]=n,d(n)},addFunc:function(e,n,r,l,c,h,f,u,m,p){!0===h&&(e=e+"_"+i++);var y=new a(e,n,r,l,c,f,u,p);!0===m?o[e]=y:s[e]=y,t[e]=y,d(y)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),s[e]=o,t[e]=o,d(o)},items:t,processAll:u,setallowLoad:function(e){r=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new c(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};</script>
+<script type="text/javascript">(function(){function storageAvailable(type){var storage;try{storage=window[type];var x='__storage_test__';storage.setItem(x,x);storage.removeItem(x);return true;}
+catch(e){return e instanceof DOMException&&(e.code===22||e.code===1014||e.name==='QuotaExceededError'||e.name==='NS_ERROR_DOM_QUOTA_REACHED')&&(storage&&storage.length!==0);}}
+function remove_ama_config(){if(storageAvailable('localStorage')){localStorage.removeItem("google_ama_config");}}
+remove_ama_config()})()</script>
+<script type="text/javascript">var ezoicTestActive = true</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ab_test_id":"mod39","ad_cache_level":1,"ad_count_adjustment":1,"ad_lazyload_version":0,"ad_load_version":1,"ad_location_ids":"","adx_ad_count":0,"ai_placeholder_cache_level":1,"ai_placeholder_placement_cnt":0,"bidder_method":1,"bidder_version":3,"city":"Guadalajara","country":"MX","days_since_last_visit":-1,"display_ad_count":0,"domain_id":176527,"domain_test_group":20230806,"ds_adsize_opt_id":-1,"engaged_time_visit":8,"ezcache_level":0,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","iab_category_0":"596","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"1690863121252","last_pageview_id":"a9a75a3f-970e-4c41-585e-28deffbd16fc","lt_cache_level":0,"max_ads":3,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":5,"page_view_id":"443acfba-12c8-45f8-6021-48f10ca8a373","position_selection_id":46,"postal_code":"44150","pv_event_count":0,"response_size_orig":1717,"response_time_orig":220,"serverid":"i-0dc082de7150d8563","state":"JAL","sub_page_ad_positions":"","t_epoch":1690863133,"template_id":147,"time_on_site_visit":17,"url":"https://filesamples.com/samples/code/html/sample1.html","user_id":0,"weather_precipitation":0,"weather_summary":"","weather_temperature":0,"word_count":199,"worst_bad_word_level":0};var _ezim_d = {};var _ezat = {"domain_id":176527,"form_factor_id":1,"framework_id":1,"pageview_date":"2023-07-31","pageview_id":"443acfba-12c8-45f8-6021-48f10ca8a373","template_id":147,"url":"https://filesamples.com/samples/code/html/sample1.html","visit_uuid":"b6e2456c-bf5e-4612-4388-48637a154e11"};</script><script data-ezscrex="false" data-pagespeed-no-defer data-cfasync="false" type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=195-2&bv=247&v=76&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>!function(){var e;__ez.vep=(e=[],{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer></script>
+	<title>Sample HTML 1</title>
+<style id='ezoicCSS'>.ezoic-ad{display:inline-block;border:0px;}.ezoic-ad>div>iframe{margin:0px!important;padding:0px!important;}
+.video-container{overflow:hidden!important}.player-container{background:#1a1a1a!important;overflow:auto!important;width:900px!important;margin:0 0 20px!important}.ez-video-container{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-wrap:wrap}.ez-video-container.ez-stuck{position:fixed;bottom:100px;z-index:999;right:20px;height:auto;transform:translateY(50);visibility:hidden}#ez-video-outstream-wrap .ez-video-ez-stuck-close{position:absolute;text-shadow:0 0 4px #000!important;opacity:.6;z-index:9999999;color:#fff;left:4px;top:4px;transition:.3s;cursor:pointer;line-height:1}#ez-video-outstream-wrap .ez-video-ez-stuck-close:hover{opacity:1}.ez-video-container.ez-stuck.raise{transform:translateY(100%);animation:fade-in-up .25s ease forwards}.ez-video-container.ez-stuck.lower{transform:translateY(100%);animation:fade-out-down .5s ease forwards}.ez-video-container.ez-stuck.raise-horizontal{transform:translateX(100%);animation:fade-in-horizontal .25s ease forwards}.ez-video-container.ez-stuck.lower-horizontal{transform:translateX(100%);animation:fade-out-horizontal .5s ease forwards}@keyframes fade-in-up{0%{opacity:0;transform:translateY(50);visibility:hidden}100%{opacity:1;transform:translateY(0);visibility:visible}}@keyframes fade-out-down{0%{opacity:1;transform:translateY(0);visibility:visible}100%{opacity:0;transform:translateY(50);visibility:hidden}}@keyframes fade-in-horizontal{0%{opacity:0;transform:translateX(50);visibility:hidden}100%{opacity:1;transform:translateX(0);visibility:visible}}@keyframes fade-out-horizontal{0%{opacity:1;transform:translateX(0);visibility:visible}100%{opacity:0;transform:translateX(50);visibility:hidden}}@media screen and (min-width:100px){.ez-video-container.ez-stuck{width:75%}}@media screen and (min-width:768px){.ez-video-container.ez-stuck{width:55%}}@media screen and (min-width:1024px){.ez-video-container.ez-stuck{width:30%}}.ez-video-ad-container{top:0;position:absolute;display:none;width:100%;height:100%}.ez-vad-controls{bottom:0;height:1.4em;position:absolute;overflow:hidden;display:none;opacity:1;background-color:#07141eb2;background:-moz-linear-gradient( bottom,rgba(7,20,30,.7) 0%,rgba(7,20,30,0) 100%);background:-webkit-gradient( linear,left bottom,left top,color-stop(0%,rgba(7,20,30,.7)),color-stop(100%,rgba(7,20,30,0)));background:-webkit-linear-gradient( bottom,rgba(7,20,30,.7) 0%,rgba(7,20,30,0) 100%);background:-o-linear-gradient(bottom,rgba(7,20,30,.7) 0%,rgba(7,20,30,0) 100%);background:-ms-linear-gradient(bottom,rgba(7,20,30,.7) 0%,rgba(7,20,30,0) 100%);background:linear-gradient(to top,rgba(7,20,30,.7) 0%,rgba(7,20,30,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#0007141E',endColorstr='#07141E',GradientType=0 )}.ez-vad-controls.ez-vad-controls-showing{height:3.7em}.ez-vad-countdown{height:1em;color:#fff;text-shadow:0 0 .2em #000;cursor:default}.ez-vad-seek-bar{top:1.2em;height:.3em;position:absolute;background:#fff6}.ez-vad-progress{width:0;height:.3em;background-color:#ecc546}.ez-vad-play-pause,.ez-vad-mute,.ez-vad-slider,.ez-vad-fullscreen{width:2.33em;height:1.33em;top:.733em;left:0;position:absolute;color:#ccc;font-size:1.5em;line-height:2;text-align:center;font-family:VideoJS;cursor:pointer}.ez-vad-mute{left:auto;right:5.667em}.ez-vad-slider{left:auto;right:2.33em;width:3.33em;height:.667em;top:1.33em;background-color:#555}.ez-vad-slider-level{width:100%;height:.667em;background-color:#ecc546}.ez-vad-fullscreen{left:auto;right:0}.ez-vad-playing:before{content:"\f103"}.ez-vad-paused:before{content:"\f101"}.ez-vad-playing:hover:before,.ez-vad-paused:hover:before{text-shadow:0 0 1em #fff}.ez-vad-non-muted:before{content:"\f107"}.ez-vad-muted:before{content:"\f104"}.ez-vad-non-muted:hover:before,.ez-vad-muted:hover:before{text-shadow:0 0 1em #fff}.ez-vad-non-fullscreened:before{content:"\f108"}.ez-vad-fullscreened:before{content:"\f109"}.ez-vad-non-fullscreened:hover:before,.ez-vad-fullscreened:hover:before{text-shadow:0 0 1em #fff}.ez-video-wrap video{visibility:visible!important}.ez-playlist-float-only{display:none!important}.video-js .vjs-share__middle{padding:0 0!important;width:80%}.video-js{float:left!important;font-size:10px;color:#fff;position:relative!important;width:100%;height:auto;margin:0}.ez-stuck.ez-video-container{display:flex!important}.cnx-button-closebutton{visibility:visible!important;opacity:1!important}
+.ezoic-floating-bottom { display: none!important; }</style><link rel='canonical' href='https://filesamples.com/samples/code/html/sample1.html' />
+<link rel="stylesheet" type="text/css" href="https://g.ezoic.net/ezvideo/ezvideojscss.css?cb=70"/>
+<script>
+		if (typeof __ezOutstream == "undefined" || typeof __ezOutstream.breaks == "undefined") {
+			window.__ezOutstream = {"prebidBidders":[{"bidder":"medianet","params":{"cid":"8CUZ6MA84","crid":"973406050"}},{"bidder":"openx","params":{"delDomain":"ezoic-d.openx.net","unit":"559076575"}},{"bidder":"pulsepoint","params":{"cf":"","cp":562406,"ct":735830}},{"bidder":"unruly","params":{"siteId":"217328"}},{"bidder":"sharethrough","params":{"pkey":"VS3UMr0vpcy8VVHMnE84eAvj"}},{"bidder":"onetag","params":{"pubId":"62499636face9dc"}}],"apsSlot":{"slotID":"","divID":"","slotName":"","sizes":null},"breaks":[],"AdIndex":1,"UnfilledCnt":0};
+		}
+	</script>
+<script type="text/javascript">var ezouid = "1";</script><base href="https://filesamples.com/samples/code/html/sample1.html"><script type='text/javascript'>
+var ezoTemplate = 'pub_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 176527;
+var ezdomain = 'filesamples.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_176527=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["443acfba-12c8-45f8-6021-48f10ca8a373", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script>
+<script type="text/javascript">var _audins_dom="filesamples_com",_audins_did=176527;__ez.queue.addFile('/detroitchicago/cmbv2.js', '/detroitchicago/cmbv2.js?gcb=195-2&cb=04-3y02-8y06-13y07-2y0b-6y0d-23y15-3y17-4y1b-5y25-3y26-4y27-19y28-70y2b-155y2f-168y33-4y35-19y58-2&cmbcb=173&sj=x04x02x06x07x0bx0dx15x17x1bx25x26x27x28x2bx2fx33x35x58&abt=Banger', true, [], true, false, true, false);</script>
+<script type="text/javascript" defer>__ez.queue.addFile('/detroitchicago/cmbdv2.js', '/detroitchicago/cmbdv2.js?gcb=195-2&cb=03-8y0c-6y1c-5y16-3&cmbcb=173&sj=x03x0cx1cx16&abt=Banger', true, ['/detroitchicago/cmbv2.js'], true, false, true, false);</script></head>
+<body>
+	Sample HTML 1
+	correo: c::mlquinteros@uaemex.mx
+	<h1>Minime vero, inquit ille, consentit.</h1>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Cur igitur, cum de re conveniat, non malumus usitate loqui? </p>
+
+	<ol>
+		<li>Si qua in iis corrigere voluit, deteriora fecit.</li>
+		<li>At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia?</li>
+		<li>An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit?</li>
+		<li>Multoque hoc melius nos veriusque quam Stoici.</li>
+		<li>Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit.</li>
+		<li>Ego vero isti, inquam, permitto.</li>
+	</ol>
+
+
+	<p>Graecum enim hunc versum nostis omnes-: Suavis laborum est praeteritorum memoria. Qui enim existimabit posse se miserum esse beatus non erit. Si qua in iis corrigere voluit, deteriora fecit. <a href="http://loripsum.net/" target="_blank">Si qua in iis corrigere voluit, deteriora fecit.</a> Dic in quovis conventu te omnia facere, ne doleas. Tu quidem reddes; </p>
+
+	<ul>
+		<li>Duo Reges: constructio interrete.</li>
+		<li>Contineo me ab exemplis.</li>
+		<li>Quo plebiscito decreta a senatu est consuli quaestio Cn.</li>
+		<li>Quicquid porro animo cernimus, id omne oritur a sensibus;</li>
+		<li>Eam si varietatem diceres, intellegerem, ut etiam non dicente te intellego;</li>
+		<li>Qua ex cognitione facilior facta est investigatio rerum occultissimarum.</li>
+	</ul>
+
+
+	<blockquote cite="http://loripsum.net">
+		Me igitur ipsum ames oportet, non mea, si veri amici futuri sumus.
+	</blockquote>
+
+<span id="ezoic-pub-outstream-placeholder" class="ezoic-outstream"></span><script type="text/javascript">
+				var __inScopeForCCPA = false;
+		function __uspapi(command, version, callback) {
+			var response = null;
+			var successs = false;
+			if (command === "getUSPData" && version === 1) {
+				var uspString = "1"; // Version
+				if (__inScopeForCCPA) {
+					uspString += "N"; // Has Explicit Notice for Opt Out been provided (ex footer or minor consent modal)
+					var result;
+					var consentCookie = (result = new RegExp('(?:^|; )ezoccpaconsent=([^;]*)').exec(document.cookie)) ? (result[1]) : null;
+					if (consentCookie === "nonconsent") {
+						uspString += "Y";
+					}
+					else {
+						uspString += "N";
+					}
+					uspString += "N" // Is pub a signatory to the IAB Limited Service Provider Agreement (http://www.iabprivacy.com/)
+				}
+				else {
+					uspString += "---";
+				}
+				response = {
+					uspString: uspString,
+					version: 1
+				};
+				success = true;
+			}
+			return callback(response, success);
+		};
+		function __receiveUspapiMessage(event) {
+			if (event.data.hasOwnProperty('__uspapiCall')) {
+				__uspapi('getUSPData', 1, function(uspData, success) {
+					event.source.postMessage({
+						__uspapiReturn: {
+							returnValue: uspData,
+							success: success,
+							callId: event.data.__uspapiCall.callId
+						}
+					},
+					event.origin);
+				});
+			}
+			return null;
+		};
+		window.addEventListener("message", __receiveUspapiMessage, false);
+</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript' id=a6aa3ffb1f4e4ac9bf95518384b0e2f3>__cnxiid = 6802689979750374;
+	__cnxau = 'filesamples_com-cnx-1';
+	setTimeout(function(){
+		!function(e) {
+			if (typeof(window.cnx) === 'undefined' || !window.cnx) {
+				window.cnx = {}, window.cnx.cmd = [];
+				var n = e.createElement('iframe');
+				n.src = 'javascript:false';
+				n.display = 'none', n.onload = function () {
+					if (typeof(ezVideo) === 'undefined' || !ezVideo) {
+						var e = n.contentWindow.document,
+							t = e.createElement('script');
+						t.src = 'https://cd.connatix.com/connatix.player.js?cid=5f049401-746e-4449-8c27-b6b9d8e25882';
+						t.setAttribute('async', '1');
+						t.setAttribute('type', 'text/javascript');
+						e.body.appendChild(t);
+					}
+				};
+				e.head.appendChild(n);
+			}
+		}(document);
+		(new Image).src = '//capi.connatix.com/tr/si?token=dceed97a-951e-4c47-b565-c2794ffae817&cid=5f049401-746e-4449-8c27-b6b9d8e25882';
+		cnx.cmd.push(function () {
+			if (typeof(__ezcnxPlayer) === 'undefined' || !__ezcnxPlayer) {
+				cnx({
+					playerId: 'dceed97a-951e-4c47-b565-c2794ffae817',
+				}).render('a6aa3ffb1f4e4ac9bf95518384b0e2f3', function(e, n) {
+					__ezcnxPlayer = n;
+					if (typeof(__ez_auto_adjust_outstream_float) === 'undefined') {
+						__ezcnxPlayerDelay = [];
+						__ezcnxPlayerDelay.push('outstreamFloatDestroy');
+					} else {
+						window.__ez_outstream_float_destroy && __ez_outstream_float_destroy();
+					}
+					if (typeof(__ez_outstream_player_tracking) === 'undefined') {
+						if (typeof(__ezcnxPlayerDelay) === 'undefined') {
+							__ezcnxPlayerDelay = [];
+						}
+						__ezcnxPlayerDelay.push('outstreamtracking');
+					} else {
+						__ez_outstream_player_tracking();
+					}
+					var railToClose = (__ezcnxPlayer.getFloatingSettings() && __ezcnxPlayer.getFloatingSettings().scrollPosition === 1) ? 'left' : 'right';
+					if (window.__ez_close_rail) {
+						if (__ezcnxPlayer.getPlayerType() !== 0) {
+							__ezcnxPlayer.once('adImpression', function(e) {
+								window.__ez_close_rail && __ez_close_rail('ez-sidebar-wall-' + railToClose);
+							});
+						} else if (__ezcnxPlayer.getFloatingSettings()) {
+							window.__ez_close_rail && __ez_close_rail('ez-sidebar-wall-' + railToClose);
+						}
+					}
+					
+				});
+			}
+		});
+	}, 3000);</script>
+<script>function renderEzoicOutstreamVideoContent(){var videoObject={"PlayerId":"ez-o","VideoContentId":"176315837296727425-outstream","VideoPlaceholderId":0,"IsAutoPlay":true,"IsFloating":true,"AdUnit":"filesamples_com-outstream-video-1","AdsEnabled":4,"PublisherVideoContentShare":{"IsEzoicOwnedVideo":false,"IsOutstream":true,"HumixChannelId":0},"DelayBetweenAdRequest":30,"FloatPosition":0};if(typeof ezVideoPlayer==="undefined"){__ez.queue.addFile("/beardeddragon/wyvern.js",'https://go.ezodn.com/beardeddragon/wyvern.js?cb=70',true,[],false,true,true,false);__ez.queue.addFile("/beardeddragon/gilamonster.js",'https://go.ezodn.com/beardeddragon/gilamonster.js?cb=168',true,["/beardeddragon/wyvern.js"],false,true,true,false);__ez.queue.addFile("/beardeddragon/iguana.js",'https://go.ezodn.com/beardeddragon/iguana.js?cb=155',true,["/beardeddragon/wyvern.js"],false,true,true,false);__ez.queue.addFile("/detroitchicago/springfield.js",'https://go.ezodn.com/detroitchicago/springfield.js?cb=2',true,["/beardeddragon/wyvern.js"],false,true,true,false);__ez.queue.addFunc("ezoutstream","renderEzoicOutstreamVideoContent",null,false,["/beardeddragon/iguana.js"],false,false,true,false);return;}
+window.ezIntType="";if(typeof ezOutstreamPlayer!=="undefined"){ezOutstreamPlayer.Init(videoObject);}}
+__ez.queue.addFile("ima","//imasdk.googleapis.com/js/sdkloader/ima3.js",true,[],false,true,true,false);__ez.queue.addFunc("ezoicOutstreamVideo","renderEzoicOutstreamVideoContent",null,false,["ima","/detroitchicago/cmbv2.js"],false,false,true,false);</script>
+
+		<script>setTimeout(function(){var cookieTest=getCookie("ezvignetteviewed");if(cookieTest==""){window.googletag=window.googletag||{};googletag.cmd=googletag.cmd||[];googletag.cmd.push(function(){if(ezslot_interstitial==null){return;}
+googletag.display(ezslot_interstitial);googletag.pubads().refresh([ezslot_interstitial]);});}},1000);function getCookie(cname){var name=cname+"=";var ca=document.cookie.split(';');for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==' '){c=c.substring(1);}
+if(c.indexOf(name)==0){return c.substring(name.length,c.length);}}
+return "";}</script>
+<script type="text/javascript" data-cfasync="false"></script>
+<script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script><script type='text/javascript' style='display:none;' async>
+</script>
+</body></html>
