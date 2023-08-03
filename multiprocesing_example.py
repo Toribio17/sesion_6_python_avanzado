@@ -20,7 +20,7 @@ class multiprocessing_(file_managment):
         print("My constructor")
         #call parent's constructor
         super().__init__()
-        #print("Number of cpu : ", multiprocessing.cpu_count())
+        print("Number of cpu : ", multiprocessing.cpu_count())
         self._app_path = os.environ["GENERAL_PATH"]
         
         
@@ -66,13 +66,13 @@ if __name__ == "__main__":
         proc = Process(target=obj.get_text_html, args=(q,folder_name,))
         proc.start()
         procs.append(proc)
-        #result = q.get()
+    result = q.get()
         
     for p in procs:
         p.join()
         
-    #file_path = os.path.join(os.environ['GENERAL_PATH'],"output-files")
-    #obj.write_json_file(file_path,'output-regex-eamil.json','w',result)
+    file_path = os.path.join(os.environ['GENERAL_PATH'],"output-files")
+    obj.write_json_file(file_path,'output-regex-eamil.json','w',result)
     
     end = time.time()
     print(f"Runtime of the program is {end - start}")
